@@ -1,0 +1,37 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# NestJS build output (adjust according to your actual folder structure)
+book-crud-backend/dist/
+book-crud-backend/*.tsbuildinfo
+
+# Next.js build output (adjust according to your actual folder structure)
+book-crud-frontend/.next/
+book-crud-frontend/out/
+book-crud-frontend/*.next/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript specific
+*.d.ts
+*.tsbuildinfo
+
+# npm package
+*.tgz
+
+# Yarn package
+.yarn-integrity
+.pnp.*
